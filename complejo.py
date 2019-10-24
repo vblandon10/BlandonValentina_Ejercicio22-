@@ -22,3 +22,8 @@ class Complejo():
         a.real = r * math.cos(n * theta)
         a.imaginario = r * math.sin(n * theta)
         return a 
+
+    def funcion (self):
+        a=Complejo(self.real, self.imaginario)
+        b=Complejo(self.real, self.imaginario)
+        prod= a.producto_complejo(b)
